@@ -1,0 +1,11 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    Layout = "_Template";
+}
+<div class="container-fluid">
+    <h1 class="mt-4 text-center">Welcome!</h1>
+    <h4 class="mt-3 text-center"> @UserManager.GetUserName(User)</h4>
+ 
+</div>
