@@ -18,6 +18,7 @@ namespace system2.Data
  
         public DbSet<ApplicationUser> ApplicationUser { get; set; }
         public DbSet<Comments> Comment { get; set; }
+        public DbSet<Models.RentalModel> Car { get; set; }
 
 
 
