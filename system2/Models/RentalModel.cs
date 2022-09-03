@@ -16,7 +16,11 @@ namespace system2.Models
         public int Mileage { get; set; }
         [Required]
         public int DailyPrice { get; set; }
+
+        public int RentalDays { get; set; }
+
         public  DateTime DayOfRent { get; set; }
+
         public DateTime DayOfReturn { get; set; }
 
 
